@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clubi - Tu aplicación de descuentos</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
     <div class="navbar-container">
         <div class="navbar">
@@ -14,19 +16,21 @@
             </a>
             <!-- Mobile menu button -->
             <button class="mobile-menu-button" id="mobile-menu-toggle">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
                     <line x1="3" y1="12" x2="21" y2="12"></line>
                     <line x1="3" y1="6" x2="21" y2="6"></line>
                     <line x1="3" y1="18" x2="21" y2="18"></line>
                 </svg>
             </button>
-    
+
             <!-- Desktop navigation -->
             <div class="desktop-nav">
                 <div class="nav-item">
                     <button class="nav-trigger" data-dropdown="products">
                         Comercios
-                        <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
                             <polyline points="6 9 12 15 18 9"></polyline>
                         </svg>
                     </button>
@@ -40,11 +44,12 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="nav-item">
                     <button class="nav-trigger" data-dropdown="services">
                         Usuarios
-                        <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
                             <polyline points="6 9 12 15 18 9"></polyline>
                         </svg>
                     </button>
@@ -59,11 +64,12 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="nav-item">
                     <button class="nav-trigger" data-dropdown="resources">
                         Nosotros
-                        <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
                             <polyline points="6 9 12 15 18 9"></polyline>
                         </svg>
                     </button>
@@ -73,53 +79,63 @@
                         </a>
                     </div>
                 </div>
-                
-                <button onclick = "window.location.href='mailto:contact.clubiapp@gmail.com?subject=Quiero unirme a la lista!&body=Soy el comercio <comercio> y me interesa clubi!'" class="cta-button">Unirse a la lista</button>
+
+                <button
+                    onclick="window.location.href='mailto:contact.clubiapp@gmail.com?subject=Quiero unirme a la lista!&body=Soy el comercio <comercio> y me interesa clubi!'"
+                    class="cta-button">Unirse a la lista</button>
             </div>
-            
+
             <!-- Mobile navigation -->
             <div class="mobile-nav" id="mobile-nav">
                 <div class="mobile-nav-item">
                     Comercios
-                    <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <polyline points="6 9 12 15 18 9"></polyline>
                     </svg>
                 </div>
                 <div class="mobile-nav-item">
                     Usuarios
-                    <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <polyline points="6 9 12 15 18 9"></polyline>
                     </svg>
                 </div>
                 <div class="mobile-nav-item">
                     Nosotros
-                    <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <polyline points="6 9 12 15 18 9"></polyline>
                     </svg>
                 </div>
-                <button onclick = "window.location.href='mailto:contact.clubiapp@gmail.com?subject=Quiero unirme a la lista!&body=Soy el comercio <comercio> y me interesa clubi!'"class="cta-button mobile-cta">Unirse a la lista</button>
+                <button
+                    onclick="window.location.href='mailto:contact.clubiapp@gmail.com?subject=Quiero unirme a la lista!&body=Soy el comercio <comercio> y me interesa clubi!'"
+                    class="cta-button mobile-cta">Unirse a la lista</button>
             </div>
         </div>
     </div>
     <div class="principal-content">
-        <h1>Tu aplicación de <span class="highlight">descuentos</span></h1>
-        <p>Lanzá descuentos personalizados, visualizá el comportamiento de tus clientes y hace que un canje sea un motivo de elegirte.
+        <h1 class="reveal">Tu aplicación de <span class="highlight reveal">descuentos</span></h1>
+        <p class="reveal">Lanzá descuentos personalizados, visualizá el comportamiento de tus clientes y hace que un canje sea un
+            motivo de elegirte.
             Únete a la <span class="highlight">lista de espera</span> y obtén acceso anticipado. </p>
-        <img src="/assets/images/iphone-mockup.svg">
+        <img src="/assets/images/iphone-mockup.svg" class="reveal">
     </div>
-    <div class="shops-content">
+    <div class="shops-content reveal">
         <h1 id="shops">¿Porqué <span class="highlight">elegirnos</span>?</h1>
-        <p>Llega a miles de clientes lanzando tus mejores descuentos. No te preocupes, reserva los mejores solo a clientes de mayor nivel en tu comercio. 
+        <p>Llega a miles de clientes lanzando tus mejores descuentos. No te preocupes, reserva los mejores solo a
+            clientes de mayor nivel en tu comercio.
             No todo son descuentos, podés estudiar a tus usuarios a traves de clubilytics 📊</p>
     </div>
-    <div class="features-grid">
+    <div class="features-grid reveal">
         <div class="feature-item">
             <div class="icon-placeholder">
                 <img src="/assets/images/Lock.svg" alt="secure-icon">
             </div>
             <div class="feature-content">
                 <div class="feature-title">Canjes seguros</div>
-                <div class="feature-description">Los canjes en Clubi utilizan seguridad con códigos de una única vez. Ingresá el código de tu cliente y nosotros hacemos el resto.</div>
+                <div class="feature-description">Los canjes en Clubi utilizan seguridad con códigos de una única vez.
+                    Ingresá el código de tu cliente y nosotros hacemos el resto.</div>
             </div>
         </div>
 
@@ -149,13 +165,14 @@
             </div>
             <div class="feature-content">
                 <div class="feature-title">Sistema de niveles para tus usuarios</div>
-                <div class="feature-description">Tus clientes mantienen un nivel en tu comercio, mientras más canjes realicen más nivel adquieren y mejores descuentos.</div>
+                <div class="feature-description">Tus clientes mantienen un nivel en tu comercio, mientras más canjes
+                    realicen más nivel adquieren y mejores descuentos.</div>
             </div>
         </div>
     </div>
-    <footer class="footer">  <a href="#" class="dropdown-item">
-        <div class="dropdown-item-title">Quienes somos</div>
-    </a>
+    <footer class="footer reveal"> <a href="#" class="dropdown-item">
+            <div class="dropdown-item-title">Quienes somos</div>
+        </a>
         <div class="footer-content">
             <div class="footer-column">
                 <h3>Nosotros</h3>
@@ -190,5 +207,16 @@
         </div>
     </footer>
     <script src="/js/mobile-menu.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+         ScrollReveal().reveal('.reveal', {
+        delay: 300,
+        origin: 'bottom', // Hace que los elementos aparezcan desde abajo
+        distance: '100px', // Distancia que se desplaza el elemento
+        duration: 1000, // Duración de la animación en milisegundos
+        easing: 'ease', // Tipo de easing (suavizado) de la animación
+    });
+    </script>
 </body>
+
 </html>
